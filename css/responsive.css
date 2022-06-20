@@ -1,0 +1,10 @@
+@media screen and (max-width:800px){
+    
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin-left: 49vw;
+    }
+
+}

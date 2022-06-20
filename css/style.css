@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&family=Roboto+Slab:wght@900&display=swap');
+:root{
+    --nain-bg-color:rgb(227, 91, 254);
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    height: 6vh;
+    position: sticky;
+    top: 0px;
+}
+nav{
+    display: flex;
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+    background:var(--nain-bg-color);
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 3vw;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+nav ul li a:hover{
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+footer{
+    background:var(--nain-bg-color);
+    position: sticky;
+    height: 4vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    bottom: 0px;
+}
+input{
+    width: 30vw;
+    border-radius: 8px;
+    
+}
+h1{
+    margin-left: 49vw;
+font-size: xxx-large;
+font-family: 'Lobster', cursive;
+}
+
+

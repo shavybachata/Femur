@@ -1,0 +1,31 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 6vh;
+    display: flex;
+}
+.content{
+    height: 65vh;
+}
+.slider{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+}
+h2{
+    margin-left: 44vw;
+}
+
+.shop{
+    display: inline-flex;
+    position: relative;
+    overflow: scroll;
+}
